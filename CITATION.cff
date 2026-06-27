@@ -1,0 +1,42 @@
+cff-version: 1.2.0
+message: "If this note helps your work, please cite it."
+title: "When More Sampling Hurts: The Modal Ceiling and Correlation Ceiling of Test-Time Scaling"
+type: article
+repository-code: "https://github.com/bay-yearick-lab/sampling-ceilings"
+authors:
+  - family-names: Bay
+    given-names: Yong Yi
+    email: yongyibay@gmail.com
+  - family-names: Yearick
+    given-names: Kathleen A.
+    email: kallie.a.yearick@gmail.com
+year: 2026
+abstract: "People overthink; language models over-sample, and the extra effort can talk both into a worse answer. Reasoning systems answer a hard question by sampling it many times (test-time scaling), and the more they draw, the more often a correct answer turns up somewhere, so coverage, the fraction of problems with at least one correct try, climbs and reads as progress. But a deployed system must return one answer, and choosing it, not knowing which try is right, is selection; selection is capped, and past a point extra samples only make the model surer of a confident mistake, even as every draw adds cost. The gap between climbing coverage and stalled selection, the identifiability gap, is the answer a model can produce but not pick. So the real question is not whether to sample but how far, and the answer is: not far. For picking an answer, the vote has already settled within a few dozen draws, the modal ceiling; for scoring a benchmark, sooner still, the correlation ceiling. Beyond that, extra draws cost compute and add nothing, and can even make the answer worse. The paper turns the cutoff into a single number, the effective number of samples, that any sampling run already reveals. The bottleneck is recognizing a right answer, not generating one."
+keywords:
+  - test-time scaling
+  - inference-time compute
+  - repeated sampling
+  - pass@k
+  - coverage
+  - best-of-n
+  - self-consistency
+  - effective sample size
+  - design effect
+  - intraclass correlation
+  - correlation ceiling
+  - modal ceiling
+  - identifiability gap
+  - modal answer
+  - plurality voting
+  - anti-scaling
+  - reasoning models
+preferred-citation:
+  type: article
+  title: "When More Sampling Hurts: The Modal Ceiling and Correlation Ceiling of Test-Time Scaling"
+  authors:
+    - family-names: Bay
+      given-names: "Yong Yi"
+    - family-names: Yearick
+      given-names: "Kathleen A."
+  year: 2026
+  # journal, doi, and url to be filled in once the arXiv preprint is posted

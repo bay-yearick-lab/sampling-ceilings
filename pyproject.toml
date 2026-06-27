@@ -1,0 +1,23 @@
+[project]
+name = "correlated-test-time-scaling"
+version = "0.1.0"
+description = "Reproducible figures for a short note on correlated test-time scaling and the effective number of samples."
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "numpy>=2.0",
+    "scipy>=1.13",
+    "matplotlib>=3.9",
+]
+
+# Extra dependencies only needed to regenerate the empirical summaries from the
+# raw public logs (`make data`); the figures and paper build from the committed
+# JSON without them. Install with `uv sync --extra data`.
+[project.optional-dependencies]
+data = [
+    "pyarrow>=16.0",
+    "math-verify>=0.5",
+]
+
+[tool.uv]
+package = false

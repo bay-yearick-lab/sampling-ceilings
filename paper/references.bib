@@ -1,0 +1,328 @@
+% ===================================================================
+% Test-time / inference-time compute scaling
+% ===================================================================
+@misc{snell2024scaling,
+  title        = {Scaling {LLM} Test-Time Compute Optimally can be More Effective than Scaling Model Parameters},
+  author       = {Snell, Charlie and Lee, Jaehoon and Xu, Kelvin and Kumar, Aviral},
+  year         = {2024},
+  eprint       = {2408.03314},
+  archivePrefix= {arXiv},
+  primaryClass = {cs.LG},
+  note         = {arXiv:2408.03314}
+}
+
+@misc{wu2024inference,
+  title        = {Inference Scaling Laws: An Empirical Analysis of Compute-Optimal Inference for Problem-Solving with Language Models},
+  author       = {Wu, Yangzhen and Sun, Zhiqing and Li, Shanda and Welleck, Sean and Yang, Yiming},
+  year         = {2024},
+  eprint       = {2408.00724},
+  archivePrefix= {arXiv},
+  primaryClass = {cs.LG},
+  note         = {arXiv:2408.00724}
+}
+
+@misc{muennighoff2025s1,
+  title        = {s1: Simple Test-Time Scaling},
+  author       = {Muennighoff, Niklas and Yang, Zitong and Shi, Weijia and Li, Xiang Lisa and Fei-Fei, Li and Hajishirzi, Hannaneh and Zettlemoyer, Luke and Liang, Percy and Cand{\`e}s, Emmanuel and Hashimoto, Tatsunori},
+  year         = {2025},
+  eprint       = {2501.19393},
+  archivePrefix= {arXiv},
+  primaryClass = {cs.CL},
+  note         = {arXiv:2501.19393}
+}
+
+@misc{openai2024o1,
+  title        = {OpenAI o1 System Card},
+  author       = {{OpenAI}},
+  year         = {2024},
+  eprint       = {2412.16720},
+  archivePrefix= {arXiv},
+  primaryClass = {cs.AI},
+  note         = {arXiv:2412.16720}
+}
+
+@misc{deepseekai2025r1,
+  title        = {DeepSeek-R1: Incentivizing Reasoning Capability in {LLMs} via Reinforcement Learning},
+  author       = {{DeepSeek-AI}},
+  year         = {2025},
+  eprint       = {2501.12948},
+  archivePrefix= {arXiv},
+  primaryClass = {cs.CL},
+  note         = {arXiv:2501.12948}
+}
+
+@misc{zhang2025ttssurvey,
+  title        = {A Survey on Test-Time Scaling in Large Language Models: What, How, Where, and How Well?},
+  author       = {Zhang, Qiyuan and Lyu, Fuyuan and Sun, Zexu and Wang, Lei and Zhang, Weixu and Hua, Wenyue and Wu, Haolun and Guo, Zhihan and Wang, Yufei and Muennighoff, Niklas and King, Irwin and Liu, Xue and Ma, Chen},
+  year         = {2025},
+  eprint       = {2503.24235},
+  archivePrefix= {arXiv},
+  primaryClass = {cs.CL},
+  note         = {arXiv:2503.24235}
+}
+
+@misc{liu2025surpass,
+  title        = {Can 1{B} {LLM} Surpass 405{B} {LLM}? Rethinking Compute-Optimal Test-Time Scaling},
+  author       = {Liu, Runze and Gao, Junqi and Zhao, Jian and Zhang, Kaiyan and Li, Xiu and Qi, Biqing and Ouyang, Wanli and Zhou, Bowen},
+  year         = {2025},
+  eprint       = {2502.06703},
+  archivePrefix= {arXiv},
+  primaryClass = {cs.CL},
+  note         = {arXiv:2502.06703}
+}
+
+@misc{beeching2024scaling,
+  title        = {Scaling Test-Time Compute with Open Models},
+  author       = {Beeching, Edward and Tunstall, Lewis and Rush, Sasha},
+  year         = {2024},
+  howpublished = {Hugging Face blog},
+  note         = {\url{https://huggingface.co/spaces/HuggingFaceH4/blogpost-scaling-test-time-compute}}
+}
+
+% ===================================================================
+% Repeated sampling, coverage, and pass-at-k
+% ===================================================================
+@misc{brown2024monkeys,
+  title        = {Large Language Monkeys: Scaling Inference Compute with Repeated Sampling},
+  author       = {Brown, Bradley and Juravsky, Jordan and Ehrlich, Ryan and Clark, Ronald and Le, Quoc V. and R{\'e}, Christopher and Mirhoseini, Azalia},
+  year         = {2024},
+  eprint       = {2407.21787},
+  archivePrefix= {arXiv},
+  primaryClass = {cs.LG},
+  note         = {arXiv:2407.21787}
+}
+
+@article{chen2021codex,
+  title        = {Evaluating Large Language Models Trained on Code},
+  author       = {Chen, Mark and Tworek, Jerry and Jun, Heewoo and Yuan, Qiming and Pinto, Henrique Ponde de Oliveira and Kaplan, Jared and Edwards, Harri and Burda, Yuri and Joseph, Nicholas and Brockman, Greg and others},
+  year         = {2021},
+  journal      = {arXiv preprint arXiv:2107.03374},
+  note         = {arXiv:2107.03374}
+}
+
+@misc{chen2024morecalls,
+  title        = {Are More {LLM} Calls All You Need? Towards Scaling Laws of Compound Inference Systems},
+  author       = {Chen, Lingjiao and Davis, Jared Quincy and Hanin, Boris and Bailis, Peter and Stoica, Ion and Zaharia, Matei and Zou, James},
+  year         = {2024},
+  eprint       = {2403.02419},
+  archivePrefix= {arXiv},
+  primaryClass = {cs.LG},
+  note         = {arXiv:2403.02419}
+}
+
+@misc{schaeffer2025powerlaws,
+  title        = {How Do Large Language Monkeys Get Their Power (Laws)?},
+  author       = {Schaeffer, Rylan and Kazdan, Joshua and Hughes, John and Juravsky, Jordan and Price, Sara and Lynch, Aengus and Jones, Erik and Kirk, Robert and Mirhoseini, Azalia and Koyejo, Sanmi},
+  year         = {2025},
+  eprint       = {2502.17578},
+  archivePrefix= {arXiv},
+  primaryClass = {cs.LG},
+  note         = {arXiv:2502.17578}
+}
+
+@misc{kazdan2025predicting,
+  title        = {Efficient Prediction of Pass@k Scaling in Large Language Models},
+  author       = {Kazdan, Joshua and Schaeffer, Rylan and Allouah, Youssef and Sullivan, Colin and Yu, Kyssen and Levi, Noam and Koyejo, Sanmi},
+  year         = {2025},
+  eprint       = {2510.05197},
+  archivePrefix= {arXiv},
+  primaryClass = {cs.LG},
+  note         = {arXiv:2510.05197}
+}
+
+@misc{levi2024simplemodel,
+  title        = {A Simple Model of Inference Scaling Laws},
+  author       = {Levi, Noam},
+  year         = {2024},
+  eprint       = {2410.16377},
+  archivePrefix= {arXiv},
+  primaryClass = {cs.LG},
+  note         = {arXiv:2410.16377}
+}
+
+% ===================================================================
+% Self-consistency, majority voting, and the Condorcet jury theorem
+% ===================================================================
+@inproceedings{wang2023selfconsistency,
+  title        = {Self-Consistency Improves Chain of Thought Reasoning in Language Models},
+  author       = {Wang, Xuezhi and Wei, Jason and Schuurmans, Dale and Le, Quoc and Chi, Ed H. and Narang, Sharan and Chowdhery, Aakanksha and Zhou, Denny},
+  year         = {2023},
+  booktitle    = {International Conference on Learning Representations (ICLR)},
+  note         = {arXiv:2203.11171}
+}
+
+@article{ladha1992condorcet,
+  title        = {The {Condorcet} Jury Theorem, Free Speech, and Correlated Votes},
+  author       = {Ladha, Krishna K.},
+  year         = {1992},
+  journal      = {American Journal of Political Science},
+  volume       = {36},
+  number       = {3},
+  pages        = {617--634}
+}
+
+@article{boland1989majority,
+  title        = {Majority Systems and the {Condorcet} Jury Theorem},
+  author       = {Boland, Philip J.},
+  year         = {1989},
+  journal      = {Journal of the Royal Statistical Society: Series D (The Statistician)},
+  volume       = {38},
+  number       = {3},
+  pages        = {181--189}
+}
+
+% ===================================================================
+% Sample diversity and mode collapse (why samples are correlated)
+% ===================================================================
+@inproceedings{holtzman2020curious,
+  title        = {The Curious Case of Neural Text Degeneration},
+  author       = {Holtzman, Ari and Buys, Jan and Du, Li and Forbes, Maxwell and Choi, Yejin},
+  year         = {2020},
+  booktitle    = {International Conference on Learning Representations (ICLR)},
+  note         = {arXiv:1904.09751}
+}
+
+@inproceedings{kirk2024diversity,
+  title        = {Understanding the Effects of {RLHF} on {LLM} Generalisation and Diversity},
+  author       = {Kirk, Robert and Mediratta, Ishita and Nalmpantis, Christoforos and Luketina, Jelena and Hambro, Eric and Grefenstette, Edward and Raileanu, Roberta},
+  year         = {2024},
+  booktitle    = {International Conference on Learning Representations (ICLR)},
+  note         = {arXiv:2310.06452}
+}
+
+@misc{wang2025diversity,
+  title        = {On the Effect of Sampling Diversity in Scaling {LLM} Inference},
+  author       = {Wang, Tianchun and Liu, Zichuan and Chen, Yuanzhou and Light, Jonathan and Liu, Weiyang and Chen, Haifeng and Zhang, Xiang and Cheng, Wei},
+  year         = {2025},
+  eprint       = {2502.11027},
+  archivePrefix= {arXiv},
+  primaryClass = {cs.CL},
+  note         = {arXiv:2502.11027}
+}
+
+% ===================================================================
+% Concurrent work applying effective sample size to LLM outputs
+% ===================================================================
+@misc{nitarach2026aimo,
+  title        = {Model Capability Dominates: Inference-Time Optimization Lessons from {AIMO} 3},
+  author       = {Nitarach, Natapong},
+  year         = {2026},
+  eprint       = {2603.27844},
+  archivePrefix= {arXiv},
+  primaryClass = {cs.LG},
+  note         = {arXiv:2603.27844}
+}
+
+@misc{kohli2026judges,
+  title        = {Nine Judges, Two Effective Votes: Correlated Errors Undermine {LLM} Evaluation Panels},
+  author       = {Kohli, Guneet},
+  year         = {2026},
+  eprint       = {2605.29800},
+  archivePrefix= {arXiv},
+  primaryClass = {cs.CL},
+  note         = {arXiv:2605.29800}
+}
+
+@misc{goel2025alike,
+  title        = {Great Models Think Alike and this Undermines {AI} Oversight},
+  author       = {Goel, Shashwat and Str{\"u}ber, Joschka and Auzina, Ilze Amanda and Chandra, Karuna K. and Kumaraguru, Ponnurangam and Kiela, Douwe and Prabhu, Ameya and Bethge, Matthias and Geiping, Jonas},
+  year         = {2025},
+  eprint       = {2502.04313},
+  archivePrefix= {arXiv},
+  primaryClass = {cs.LG},
+  note         = {arXiv:2502.04313}
+}
+
+% ===================================================================
+% Classical statistics: design effect, exchangeability, overdispersion
+% ===================================================================
+@book{kish1965survey,
+  title        = {Survey Sampling},
+  author       = {Kish, Leslie},
+  year         = {1965},
+  publisher    = {John Wiley \& Sons},
+  address      = {New York}
+}
+
+@book{cochran1977sampling,
+  title        = {Sampling Techniques},
+  author       = {Cochran, William G.},
+  year         = {1977},
+  edition      = {3rd},
+  publisher    = {John Wiley \& Sons},
+  address      = {New York}
+}
+
+@article{definetti1937prevision,
+  title        = {La pr{\'e}vision: ses lois logiques, ses sources subjectives},
+  author       = {de Finetti, Bruno},
+  year         = {1937},
+  journal      = {Annales de l'Institut Henri Poincar{\'e}},
+  volume       = {7},
+  number       = {1},
+  pages        = {1--68}
+}
+
+@article{skellam1948probability,
+  title        = {A Probability Distribution Derived from the Binomial Distribution by Regarding the Probability of Success as Variable between the Sets of Trials},
+  author       = {Skellam, J. G.},
+  year         = {1948},
+  journal      = {Journal of the Royal Statistical Society: Series B},
+  volume       = {10},
+  number       = {2},
+  pages        = {257--261}
+}
+
+% ===================================================================
+% Companion note (this paper's series)
+% ===================================================================
+@article{bay2026kore,
+  title        = {Solve for the Hyperparameter, Skip the Search: {Kolmogorov}-Optimal
+                  Scaling Laws for Spline Regression},
+  author       = {Bay, Yong Yi and Yearick, Kathleen A.},
+  journal      = {arXiv preprint arXiv:2606.23575},
+  year         = {2026}
+}
+
+@misc{bay2026no3d,
+  title        = {No {3D} Matrices: A Unified Tensor-Product View of Matrix-Free
+                  {Cartesian} {PDE} Solvers},
+  author       = {Bay, Yong Yi and Yearick, Kathleen A.},
+  year         = {2026},
+  eprint       = {2606.25148},
+  archivePrefix= {arXiv},
+  primaryClass = {math.NA},
+  note         = {arXiv:2606.25148}
+}
+
+@article{bay2024generalization,
+  title        = {Machine Learning vs Deep Learning: The Generalization Problem},
+  author       = {Bay, Yong Yi and Yearick, Kathleen A.},
+  year         = {2024},
+  journal      = {arXiv preprint arXiv:2403.01621},
+  eprint       = {2403.01621},
+  archivePrefix= {arXiv},
+  primaryClass = {cs.LG},
+  note         = {arXiv:2403.01621}
+}
+
+% ===================================================================
+% Benchmarks and verifier-based best-of-n
+% ===================================================================
+@misc{cobbe2021gsm8k,
+  title        = {Training Verifiers to Solve Math Word Problems},
+  author       = {Cobbe, Karl and Kosaraju, Vineet and Bavarian, Mohammad and Chen, Mark and Jun, Heewoo and Kaiser, Lukasz and Plappert, Matthias and Tworek, Jerry and Hilton, Jacob and Nakano, Reiichiro and Hesse, Christopher and Schulman, John},
+  year         = {2021},
+  eprint       = {2110.14168},
+  archivePrefix= {arXiv},
+  primaryClass = {cs.LG},
+  note         = {arXiv:2110.14168}
+}
+
+@inproceedings{hendrycks2021math,
+  title        = {Measuring Mathematical Problem Solving With the {MATH} Dataset},
+  author       = {Hendrycks, Dan and Burns, Collin and Kadavath, Saurav and Arora, Akul and Basart, Steven and Tang, Eric and Song, Dawn and Steinhardt, Jacob},
+  year         = {2021},
+  booktitle    = {Advances in Neural Information Processing Systems (NeurIPS) Datasets and Benchmarks Track},
+  note         = {arXiv:2103.03874}
+}
