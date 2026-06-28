@@ -109,28 +109,3 @@ Report the effective number of samples alongside the nominal count:
 The source code (`scripts/`, `Makefile`) is released under the MIT License
 ([LICENSE](LICENSE)). The paper text and figures (`paper/`) are licensed under
 CC BY 4.0 ([paper/LICENSE](paper/LICENSE)).
-
----
-
-## Part of a series
-
-This repository is one of **Closed-Form Laws for Reasoning and Agentic Models**, a coordinated
-series by Yong Yi Bay and Kathleen A. Yearick. Each note turns a freshly-observed phenomenon in
-LLM/RL systems into a law with a named order parameter, using one classical mathematical instrument.
-
-- `passk-crossover` — why pass@k curves cross exactly once (single-crossing law)
-- `agent-horizon` — long-horizon agent reliability as a criticality law
-- `correlated-test-time-scaling` — the effective number of samples and the correlation ceiling
-- `grpo-explained` — GRPO as a variance-stabilized REINFORCE
-- `outcome-concentration` — why large networks train and generalize reliably
-- `reasoning-half-life` — a discovery–corruption law for overthinking
-- `effective-group-size-rlvr` — a GRPO group is a cluster sample
-- `reward-normalization-fairness` — reward normalization as inequality aversion
-- `gspo-trust-region` — GSPO as GRPO with a mean trust region
-- `verifier-density` — verifier density as the order parameter of agentic RLVR
-- `latent-collapse-power-iteration` — latent collapse is power iteration
-- `rope-condition-number` — RoPE extrapolation as ill-posed super-resolution
-- `moe-routing-collapse` — routing collapse as a Pólya-urn monopoly
-
-Foundational notes: *Solve for the Hyperparameter, Skip the Search* (arXiv:2606.23575) and
-*Machine Learning vs Deep Learning: The Generalization Problem* (arXiv:2403.01621).
